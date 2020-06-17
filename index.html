@@ -30,7 +30,23 @@
                 </div>
             </div>
         </nav>
-        <header class="masthead bg-primary text-white text-center">
+        
+    <style type="text/css">
+    .zoomin img {
+      height: 200px;
+      width: 200px;
+      -webkit-transition: all 2s ease;
+      -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+      transition: all 2s ease;
+    }
+    .zoomin img:hover {
+      width: 300px;
+      height: 300px;
+    }
+  </style>
+        
+        <header class="masthead bg-primary text-white text-center , zoomin">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/logo.png" alt="" style="width: 23%; height: 23%"/>
                 <!-- Masthead Heading-->
